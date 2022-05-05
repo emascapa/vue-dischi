@@ -113,9 +113,9 @@ main {
     background-color: $card_theme;
     height: 100%;
     .img_div {
-      width: 100%;
-      aspect-ratio: 1;
-      overflow: hidden;
+      //width: 100%;
+      //aspect-ratio: 1;
+      //overflow: hidden;
     }
     .pokemon_name {
       color: $light_theme;
