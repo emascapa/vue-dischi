@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import SpotifyHeader from "./SpotifyHeader.vue";
-import SpotifyMain from "./SpotifyMain.vue";
+import SpotifyHeader from "@/components/SpotifyHeader.vue";
+import SpotifyMain from "@/components/SpotifyMain.vue";
 
 export default {
   name: "SpotifyComponent",

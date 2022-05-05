@@ -1,23 +1,26 @@
 <template>
   <div id="app">
-  <Spotify/>
+    <Pokemon />
+    <Spotify />
   </div>
 </template>
 
 <script>
 /* import HelloWorld from './components/HelloWorld.vue'*/
-import Spotify from './components/SpotifyComponent.vue'
+import Spotify from "@/components/SpotifyComponent.vue";
+import Pokemon from "@/components/PokemonComponent.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Spotify
-  }
-}
+    Pokemon,
+    Spotify,
+  },
+};
 </script>
 
 <style lang="scss">
-@import "@assets/scss/style.scss";
+@import "@/assets/scss/style.scss";
 
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
