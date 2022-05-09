@@ -57,9 +57,9 @@ export default {
   methods: {
     getPokemon(index) {
       let pokemon = {
-        name: null,
-        number: null,
-        image: null,
+        name: '',
+        number: '',
+        image: '',
       };
 
       axios
